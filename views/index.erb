@@ -4,11 +4,6 @@
 <% if @color%>
 <h1>My favourite colour is <%= @color %></h1>
 <% end %>
-<form action="/namedcat">
-  <input type="text" name="name">
-  <input type="text" name="color">
-  <input type="submit" value="Submit">
-</form>
 <div style="border: 3px dashed <%= @color %> ">
  <img src='http://bit.ly/1eze8aE'>
 </div>
